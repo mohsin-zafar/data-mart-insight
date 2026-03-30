@@ -19,7 +19,7 @@
 
 - **Screenshot:** The dashboard screenshot is available in the `Dashboard/` folder.
 
-![Dashboard](Dashboard/Dashboard%20.png)
+![Dashboard](Dashboard/Dashboard.png)
 
 **What I Analyzed**
 - **Trends and Patterns:** Time-based changes in sales and revenue.
