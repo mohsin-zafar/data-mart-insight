@@ -1,63 +1,68 @@
-**Data Dashboard Project**
+# Data Mart Insight — Sales Analytics Dashboard
 
-**Overview**
-- **Purpose:** This project presents a data dashboard created to analyze and visualize key insights from sales datasets. The goal is to make complex data easy to understand and support better decision-making through clear visuals.
-- **Focus:** Clear visuals, concise KPIs, and actionable insights.
+## Overview
 
-**Dashboard Features**
-- **Clean Layout:** Simple, intuitive layout for quick interpretation.
-- **Visuals:** Multiple charts and graphs (time series, bar charts, comparisons).
-- **KPIs:** High-level metrics displayed for fast assessment.
-- **Interactivity:** Filters and drill-downs (if implemented) to explore specifics.
+This project is a sales analytics dashboard built to analyze multi-region sales data and present key business insights through clear, interactive visuals. It covers the full data analyst workflow — from raw data cleaning in SQL to building a stakeholder-ready Power BI dashboard.
 
-**Data**
-- **Source files:** Sales CSV files are located in the `Dataset/` folder (e.g., `sales_US.csv`, `sales_UK.csv`).
-- **Columns (example):** Date, Region, Category, Product, Units Sold, Revenue, Cost.
-- **Notes:** Clean, preprocessed CSVs were used; ensure consistent date formats before loading.
+**Goal:** Turn scattered CSV sales data into actionable insights that support faster, better business decisions.
 
-**Dashboard Image**
+---
 
-- **Screenshot:** The dashboard screenshot is available in the `Dashboard/` folder.
+## Tools Used
+
+| Tool | Purpose |
+|------|---------|
+| **Power BI** | Interactive dashboard & KPI visualizations |
+| **SQL** | Data cleaning, transformation & aggregation |
+| **Excel** | Initial data exploration |
+
+---
+
+## What I Did
+
+- Cleaned and prepared multi-region sales data ex-UK,INDIA using SQL
+- Built an interactive Power BI dashboard with filters for region, category, and date
+- Analyzed revenue trends, top-performing categories, and regional comparisons
+- Identified anomalies and outliers for business review
+
+---
+
+## Dashboard Preview
 
 ![Dashboard](Dashboard/Dashboard.png)
 
-**What I Analyzed**
-- **Trends and Patterns:** Time-based changes in sales and revenue.
-- **Category Comparisons:** Which categories and regions performed best/worst.
-- **Key Metrics:** Revenue, growth rate, average order value, units sold.
-- **Anomalies:** Spikes, drops, or outliers identified for further review.
+---
 
-**Key Insights**
-- **Top Performers:** Certain categories and regions consistently outperformed others.
-- **Time Trends:** Clear upward/downward trends over time in specific segments.
-- **Outliers:** A few data points stood out and were flagged for investigation.
-- **Relationships:** Correlations between volume and revenue help explain performance shifts.
+## Key Insights
 
-**What I Achieved / Learned**
-- **Visualization Skills:** Improved chart selection and presentation for clarity.
-- **Data-to-Insight:** Converted raw CSV data into meaningful, actionable insights.
-- **Dashboard Design:** Learned to design dashboards focused on the user’s decision needs.
-- **Analytical Thinking:** Strengthened ability to interpret trends and anomalies.
+- Q3 and Q4 consistently drove the highest revenue across both regions
+- Top-performing categories contributed over 60% of total sales
+- US and UK markets showed different Average Order Value patterns
+- Some product categories showed declining units sold despite stable revenue — indicating price increases
 
-**How to Use / Run**
-- Open your preferred dashboard tool or notebook (e.g., Power BI, Tableau, or a Jupyter notebook).
-- Load CSVs from the `Dataset/` folder.
-- Ensure date parsing and data types are correct; perform light preprocessing if necessary.
-- Apply filters (region, category, date range) to explore metrics interactively.
+---
 
-**Files & Structure**
-- `Dataset/` — CSV data files used for analysis.
-- `Dashboard/` — Dashboard files and assets (visualization files, exported images).
-- `Sql_FIle/new_project2.sql` — SQL queries used for data prep or analysis.
-- `Assests/` — Supporting images or assets for the dashboard presentation.
+## What I Achieved
 
-**Next Steps / Improvements**
-- Add sample screenshots or a short demo GIF to the `Dashboard/` folder.
-- Include a `requirements.txt` or export of the dashboard file for reproducibility.
-- Add a short notebook demonstrating key transformations and example visualizations.
+- Converted raw CSV data into a clean, interactive dashboard stakeholders can use directly
+- Demonstrated end-to-end analyst workflow: SQL → data prep → visualization → insights
+- Strengthened skills in dashboard design, SQL aggregation, and business storytelling
 
-**Conclusion**
-This dashboard demonstrates the ability to analyze sales data and present it in a clear, visual, and impactful way. It reflects technical skills in data processing and visualization, and the ability to turn data into actionable insights.
+---
 
-**Contact**
-- If you want the walkthrough, sample code, or visual exports added to this repo, ask and I’ll include them.
+## Project Structure
+
+```
+data-mart-insight/
+├── Dataset/        # Raw sales CSV files (US & UK)
+├── Sql_FIle/       # Data cleaning & analysis queries
+├── Dashboard/      # Power BI file & screenshot
+└── Assests/        # Supporting images
+```
+
+---
+
+## Author
+
+**Mohsin Zafar**  
+GitHub: [mohsin-zafar](https://github.com/mohsin-zafar) | Email: mohsinzafar6398@gmail.com
